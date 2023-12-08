@@ -17,8 +17,8 @@ function setDataForESign() {
     extSysDocId: CurrentDocument.id,
     ExtSysDocVersion: CurrentDocument.version,
     DocumentType: "act",
-    docDate: registrationDate,
-    docNum: registrationNumber,
+    docDate: regDate,
+    docNum: regNumber,
     File: "",
     parties: [
       {
@@ -45,12 +45,12 @@ function setDataForESign() {
       {
         code: "docDate",
         type: "dateTime",
-        value: registrationDate,
+        value: regDate,
       },
       {
         code: "docNum",
         type: "string",
-        value: registrationNumber,
+        value: regNumber,
       },
     ],
     sendingSettings: {
