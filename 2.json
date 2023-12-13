@@ -1,0 +1,27 @@
+{
+  "DocumentName": "тест 3 від 08.12.2023",
+  "extSysDocId": 18062,
+  "ExtSysDocVersion": 1,
+  "DocumentType": "act",
+  "docDate": "2023-12-08T00:00:00.000Z",
+  "docNum": "тест 3",
+  "File": "",
+  "parties": [
+    {
+      "taskType": "ToSign",
+      "taskState": "Done",
+      "legalEntityCode": "14360920",
+      "contactPersonEmail": "maksym.gomonov@pravex.ua",
+      "signatures": []
+    },
+    {
+      "taskType": "ToSign",
+      "taskState": "NotAssigned",
+      "legalEntityCode": "40448024",
+      "contactPersonEmail": "i.tymoshchuk@e-docs.ua",
+      "expectedSignatures": [{ "SignerTitle": "i.tymoshchuk@e-docs.ua" }],
+      "sendByService": "vchasno"
+    }
+  ],
+  "sendingSettings": { "attachFiles": "fixed", "attachSignatures": "signatureAndStamp" }
+}

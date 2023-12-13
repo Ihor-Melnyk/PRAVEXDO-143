@@ -1,0 +1,31 @@
+{
+  "DocName": "Main agreement №№101123 174-23/11/23 від 23.11.2023",
+  "extSysDocId": 215377,
+  "ExtSysDocVersion": 1,
+  "docType": "contract",
+  "docDate": "2023-11-23T13:12:00.000Z",
+  "docNum": "№101123 174-23/11/23",
+  "File": "",
+  "parties": [
+    {
+      "taskType": "ToSign",
+      "taskState": "Done",
+      "legalEntityCode": "35291194",
+      "contactPersonEmail": "oleh.pipa@porscheukraine.com.ua",
+      "signatures": []
+    },
+    {
+      "taskType": "ToSign",
+      "taskState": "NotAssigned",
+      "legalEntityCode": "37572127",
+      "contactPersonEmail": "corp@ctline.com.ua",
+      "expectedSignatures": [],
+      "sendByService": "vchasno"
+    }
+  ],
+  "additionalAttributes": [
+    { "code": "docDate", "type": "dateTime", "value": "2023-11-23T13:12:00.000Z" },
+    { "code": "docNum", "type": "string", "value": "№101123 174-23/11/23" }
+  ],
+  "sendingSettings": { "attachFiles": "fixed", "attachSignatures": "signatureAndStamp" }
+}
